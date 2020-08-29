@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(40, 150, 160), rgb(40, 60, 140)); /* transparent  */
+
+}
+/* spaces content out */
+.location p {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 1.5vw
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-icon {
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img {
+    display: flex;
+}
+
+/* number & degrees */
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+/* C */
+.temperature-value span {
+    font-size: 0.5em;
+    color: black;
+}
+
+.temperature-description p {
+    padding: 8px;
+    margin: 0;
+    text-align: right;
+    font-size: 1.2em;
+    color: black;
+}
